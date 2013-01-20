@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Divine Hair & Makeup</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+			<div class="container">
+				<a href="#" class="brand">Divine - Professional Hair & MakeUp</a>
+					<ul class="nav">
+						<li><%= link_to "Home", home_index_path %></li>
+						<li><%= link_to "Profile", profile_index_path %></li>
+						<li><%= link_to "Services", services_index_path %></li>
+						<li><%= link_to "Gallery", galery_index_path %></li>
+						<li><%= link_to "Contact", contact_index_path %></li>
+						<li><%= link_to "Testimonials", testimonials_index_path %></li>
+					</ul>
+			</div>
+	</div>
+</div>
+</body>
+</html>
