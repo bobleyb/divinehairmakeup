@@ -1,19 +1,27 @@
 Divine::Application.routes.draw do
-  get "testimonials/index"
+  #get "testimonials/index"
 
-  get "contact/index"
+  #get "contact/index"
 
-  get "galery/index"
+  #get "gallery/index"
 
-  get "services/index"
+  #get "services/index"
 
-  get "profile/index"
+  #get "profile/index"
 
-  get "aboutus/index"
+  #get "aboutus/index"
 
-  get "home/index"
+  #get "home/index"
 
   root to: "home#index"
+
+  get 'home', to: 'home#index', as: :home
+  get 'profile', to: 'profile#index', as: :profile
+  get 'services', to: 'services#index', as: :services
+  get 'gallery', to: 'gallery#index', as: :gallery
+  get 'contact', to: 'contact#index', as: :contact
+  get 'testimonials', to: 'testimonials#index', as: :testimonials
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
