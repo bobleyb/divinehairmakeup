@@ -3381,6 +3381,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   *zoom: 1;
   font-family: 'Copperplate Gothic';
+  font-size: 20px;
 }
 .navbar-inner:before,
 .navbar-inner:after {
@@ -3403,7 +3404,7 @@ input[type="submit"].btn.btn-mini {
   display: block;
   padding: 10px 20px 10px;
   margin-left: -20px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 200;
   font-family: 'Copperplate Gothic';
   color: #777777;
@@ -5985,6 +5986,7 @@ button.close {
     padding-right: 10px;
     margin: 0 0 0 -5px;
     font-family: 'Copperplate Gothic';
+    font-size: 20px;
   }
   .nav-collapse {
     clear: both;
