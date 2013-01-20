@@ -209,7 +209,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #610000;
+  background-color: #FFBAD2;
 }
 a {
   color: #0088cc;
@@ -671,6 +671,7 @@ ol ul {
 }
 li {
   line-height: 20px;
+  color: #FFBAD2;
 }
 ul.unstyled,
 ol.unstyled {
@@ -3379,6 +3380,7 @@ input[type="submit"].btn.btn-mini {
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   *zoom: 1;
+  font-family: 'Copperplate Gothic';
 }
 .navbar-inner:before,
 .navbar-inner:after {
@@ -3403,6 +3405,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
+  font-family: 'Copperplate Gothic';
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
 }
@@ -3731,7 +3734,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
-  color: #999999;
+  color: #FFBAD2;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .navbar-inverse .brand:hover,
@@ -3739,10 +3742,12 @@ input[type="submit"].btn.btn-mini {
   color: #ffffff;
 }
 .navbar-inverse .brand {
-  color: #999999;
+  color: #FFBAD2;
+  font-family: 'Copperplate Gothic';
 }
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #FFBAD2;
+  font-family: 'Copperplate Gothic';
 }
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
@@ -4359,10 +4364,11 @@ a.thumbnail:hover {
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #000000;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  font-family: 'Copperplate Gothic'
 }
 .hero-unit h1 {
   margin-bottom: 0;
@@ -5008,12 +5014,14 @@ a.thumbnail:hover {
   right: 0;
   bottom: 0;
   padding: 15px;
-  background: #333333;
+  background: #000000;
   background: rgba(0, 0, 0, 0.75);
+  font-family: 'Copperplate Gothic';
+
 }
 .carousel-caption h4,
 .carousel-caption p {
-  color: #ffffff;
+  color: #FFBAD2;
   line-height: 20px;
 }
 .carousel-caption h4 {
@@ -5021,6 +5029,7 @@ a.thumbnail:hover {
 }
 .carousel-caption p {
   margin-bottom: 0;
+  color: #FFBAD2;
 }
 .well {
   min-height: 20px;
@@ -5965,6 +5974,7 @@ button.close {
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
+    font-family: 'Copperplate Gothic';
   }
   .navbar .container {
     width: auto;
@@ -5974,6 +5984,7 @@ button.close {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 0 0 -5px;
+    font-family: 'Copperplate Gothic';
   }
   .nav-collapse {
     clear: both;
