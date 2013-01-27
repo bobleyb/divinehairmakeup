@@ -209,7 +209,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #FFBAD2;
+  background-color: #000000;
 }
 a {
   color: #0088cc;
@@ -3380,7 +3380,6 @@ input[type="submit"].btn.btn-mini {
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   *zoom: 1;
-  font-family: 'Copperplate Gothic';
   font-size: 20px;
 }
 .navbar-inner:before,
@@ -3406,7 +3405,6 @@ input[type="submit"].btn.btn-mini {
   margin-left: -20px;
   font-size: 30px;
   font-weight: 200;
-  font-family: 'Copperplate Gothic';
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
 }
@@ -3744,11 +3742,9 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inverse .brand {
   color: #FFBAD2;
-  font-family: 'Copperplate Gothic';
 }
 .navbar-inverse .navbar-text {
   color: #FFBAD2;
-  font-family: 'Copperplate Gothic';
 }
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
@@ -4369,7 +4365,6 @@ a.thumbnail:hover {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  font-family: 'Copperplate Gothic'
 }
 .hero-unit h1 {
   margin-bottom: 0;
@@ -5017,8 +5012,6 @@ a.thumbnail:hover {
   padding: 15px;
   background: #000000;
   background: rgba(0, 0, 0, 0.75);
-  font-family: 'Copperplate Gothic';
-
 }
 .carousel-caption h4,
 .carousel-caption p {
@@ -5975,7 +5968,7 @@ button.close {
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
-    font-family: 'Copperplate Gothic';
+    
   }
   .navbar .container {
     width: auto;
@@ -5985,7 +5978,7 @@ button.close {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 0 0 -5px;
-    font-family: 'Copperplate Gothic';
+    
     font-size: 20px;
   }
   .nav-collapse {
